@@ -1,8 +1,7 @@
 create database Forma_Pago
 Use Forma_Pago
 Create tablr Forma_Pago(
-ID_TR_EF-Int Primary key,
-Transferencia-ENUM,
-Efectivo-ENUM);
+ID_TR_EF-Int Primary key, // en el Int se guarda el ID del trabajador, el cual se le asignara un numero unico a cada trabajador.
+Transferencia-Int, // en el Int se guarda si el pago se hara por transferencia.
+Efectivo-Int); // en el Int se guarda si el pago se hara en efectivo.
 
-// En el Int se guarda el ID de la forma de pago que se le dara al trabajador, minetras que en los ENUM se guarda si el pago se hara por transferencia o en efectivo.

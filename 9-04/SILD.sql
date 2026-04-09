@@ -1,8 +1,7 @@
 create database SILD
 Use SILD
 Create table SILD(
-ID_SILD-Int Primary Key,
-Pago_Posible-Int,
-Usuario-Varchar);
+ID_SILD-Int Primary Key, // en el Int se guarda el ID del SILD, el cual se le asignara un numero unico.
+Pago_Posible-Int, // en el Int se guarda el pago posible.
+Usuario-Varchar); // en el Varchar se guarda el nombre del usuario.
 
-// En los Int se guarda los datos numericos que son usados para el ID y el pago posible, mientras que en el Varchar se guarda el nombre del usuario.
