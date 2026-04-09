@@ -1,9 +1,8 @@
 Create database Trabajadores
 Use Trabajadores
 Create table Trabajadores(
-ID_T-Int Primary key,
-Nombre_T-Varchar,
-Apellidos_T-Varchar,
-Numero_Targeta-Int);
+ID_T-Int Primary key, // es un Int para guardar el ID del trabajador, el cual se le asignara un numero unico a cada trabajador.
+Nombre_T-Varchar, // en el Varchar se guardara el nombre del trabajador.
+Apellidos_T-Varchar, // en el Varchar se guardaran los apellidos del trabajador.
+Numero_Targeta-Int); // en el Int se guardara el numero de targeta del trabajador, el cual se le asignara un numero unico a cada trabajador.
 
-// Los Int se utilizan para almacenar los datos  numericos, como el ID y el numero de tarjeta, mientras que los Varchar se utilizan para almacenar los datos de texto, como el nombre y los apellidos.
