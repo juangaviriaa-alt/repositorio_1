@@ -1,7 +1,7 @@
 const url ="https://kjidjgxbtbwtgvmelalw.supabase.co/rest/v1/estudiantes";
 
 const headers = {
-  apikey: "REDACTED",
+  apikey: process.env.SUPABASE_KEY || "REDACTED",
   "Content-Type": "application/json",
 };
 
