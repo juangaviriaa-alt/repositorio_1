@@ -1,0 +1,21 @@
+{
+  "name": "repositorio_1",
+  "version": "1.0.0",
+  "description": "¡estudio programacio de software, me gustan los videojuengos y el voleibol!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juangaviriaa-alt/repositorio_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/juangaviriaa-alt/repositorio_1/issues"
+  },
+  "homepage": "https://github.com/juangaviriaa-alt/repositorio_1#readme"
+}
